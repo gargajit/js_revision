@@ -88,12 +88,10 @@ const ajit = {
     [key]: "meditates daily.",
 };
 
-
 const info = prompt(`Which information about Ajit you want to know?\nChoose between firstName, age, hobbies, ${key}`);
 
 if (ajit[info]) {
     console.log(ajit[info]);    
 } else {
     console.log("Sorry, this info is not available.");
-    
 }
